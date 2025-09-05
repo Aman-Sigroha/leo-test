@@ -5,38 +5,67 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.home {
+  padding: 2rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navigation {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.auth-button, .extension-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #646cff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 300ms;
 }
 
-.card {
-  padding: 2em;
+.auth-button:hover, .extension-button:hover {
+  background-color: #535bf2;
+  color: white;
+  text-decoration: none;
 }
 
-.read-the-docs {
-  color: #888;
+.features {
+  margin-top: 3rem;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+.features li {
+  margin: 0.5rem 0;
+}
+
+.onshape-extension {
+  padding: 2rem;
+}
+
+.onshape-extension button {
+  padding: 12px 24px;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 300ms;
+}
+
+.onshape-extension button:hover {
+  background-color: #535bf2;
 }
